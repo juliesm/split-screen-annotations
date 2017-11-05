@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { AnnotationBoxComponent } from './components/annotation-box/annotation-box.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AnnotationBoxComponent
   ],
   imports: [
     BrowserModule

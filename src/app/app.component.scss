@@ -1,0 +1,19 @@
+::selection {
+  background: pink
+}
+
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+
+  .view-bg {
+    width: 45%;
+    background-color: #eeeeee;
+    height: 80vh;
+    padding: 1em;
+    overflow-y: scroll;
+  }
+  
+}

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-annotation-box',
+  selector: 'annotation-box',
   templateUrl: './annotation-box.component.html',
   styleUrls: ['./annotation-box.component.css']
 })

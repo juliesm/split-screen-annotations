@@ -1,2 +1,7 @@
-<h3>type annotation text</h3>
-<textarea class="my-annoation"/>
+<h2 mat-dialog-title>Annotation Heading</h2>
+<mat-dialog-content>Close dialog?</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="false">No</button>
+  <!-- Can optionally provide a result for the closing dialog. -->
+  <button mat-button [mat-dialog-close]="true">Yes</button>
+</mat-dialog-actions>

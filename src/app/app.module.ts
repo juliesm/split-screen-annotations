@@ -1,8 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { MatDialogModule } from '@angular/material';
+//import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { AnnotationBoxComponent } from './components/annotation-box/annotation-box.component';
+
 
 @NgModule({
   declarations: [
@@ -10,9 +14,12 @@ import { AnnotationBoxComponent } from './components/annotation-box/annotation-b
     AnnotationBoxComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatDialogModule,
+    NoopAnimationsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  entryComponents: [ AnnotationBoxComponent ],
+  bootstrap: [ AppComponent ]
 })
 export class AppModule { }
